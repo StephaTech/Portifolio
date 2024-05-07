@@ -139,5 +139,30 @@ h3 {
     
 }
 
+.education {
+    h4 {
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    ul {
+        margin: 0;
+    }
+    small {
+        display: block;
+        font-family: "Open Sans", sans-serif;
+        color: rgba(0 ,0 ,0 , 0.6);
+        font-weight: bold;
+        line-height: 1.5em;
+        letter-spacing: 0.5px;
+        font-size: 12px;
+        text-transform: uppercase;
+
+
+    }
+   
+}
+
 
 
