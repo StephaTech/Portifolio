@@ -61,7 +61,7 @@ h2 {
 
 .page {
     width: 15in;
-    height: 50in;
+    height: 20in;
     background: white;
     box-shadow: 0 0 5px rgba(0 ,0 ,0 , 0.2);
     
@@ -184,6 +184,51 @@ h3 {
         text-transform: uppercase;
     }
    
+}
+
+.additional {
+    h4, p {
+        margin:0;
+        letter-spacing: 1.5px;
+    }
+    ul {
+        margin:0;
+    }
+    > div {
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        margin-bottom: 4px;
+        letter-spacing: 0.5px;
+
+    }
+
+}
+
+h4 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 700;
+    color:#272323;
+    margin:0;   
+}
+
+h3 {
+    display: flex;
+    text-align:center;
+    font-family:"Quicksand", sans-serif;
+    font-size: 20px;
+    line-height: 0.2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 28px 0 8px;
+    &::after {
+        content: "";
+        width:100%;
+        border-top: 1px solid rgba(0 ,0 ,0 , 0.2);
+        margin-left: 16px;
+    }
+    
 }
 
 
