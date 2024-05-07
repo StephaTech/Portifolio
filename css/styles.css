@@ -26,15 +26,12 @@ ul {
 }
 
 div {
-
-    /* padding: 25px 500px 75px 10px; */
     
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
-    
-    
+   
 }
 
 h1 {
@@ -61,7 +58,7 @@ h2 {
 
 .page {
     width: 15in;
-    height: 20in;
+    height: 18in;
     background: white;
     box-shadow: 0 0 5px rgba(0 ,0 ,0 , 0.2);
     
@@ -122,6 +119,7 @@ h4 {
 }
 
 h3 {
+    
     display: flex;
     text-align:center;
     font-family:"Quicksand", sans-serif;
@@ -135,6 +133,7 @@ h3 {
         width:100%;
         border-top: 1px solid rgba(0 ,0 ,0 , 0.2);
         margin-left: 16px;
+        
     }
     
 }
@@ -145,9 +144,11 @@ h3 {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        
     }
     ul {
         margin: 0;
+        
     }
     small {
         display: block;
@@ -166,12 +167,15 @@ h3 {
 
 .experience {
     h4 {
+        
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-top: 10px;
     }
     ul {
         margin: 0;
+        margin-top: 10px;
     }
     small {
         display: block;
@@ -182,6 +186,7 @@ h3 {
         letter-spacing: 0.5px;
         font-size: 12px;
         text-transform: uppercase;
+        
     }
    
 }
